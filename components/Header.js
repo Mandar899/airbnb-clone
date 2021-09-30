@@ -88,7 +88,7 @@ function Header({ placeholder }) {
 
       {/* for rendering calendar */}
       {searchInput && (
-        <div className='flex flex-col col-span-3 sm:max-w-2xl max-w-md mx-auto mt-1'>
+        <div className='flex flex-col col-span-3 mx-auto mt-1'>
           <DateRangePicker
             ranges={[selectionRange]}
             minDate={new Date()}
